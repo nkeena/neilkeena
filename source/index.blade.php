@@ -2,41 +2,56 @@
 
 @section('body')
 
-<div style="background-image: url(/assets/images/code.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
-<section class="text-white" style="background-image: linear-gradient(to right, rgba(25,33,108,1), rgba(53,70,156,.65));">
-    <div class="container mx-auto py-24 px-5 tracking-wide">
-        
-        <section class="flex items-center">
-            <div class="md:w-2/3 w-full md:text-left text-center">
-                <div class="border-4 border-indigo-20 text-indigo-20 rounded-full text-5xl inline-block p-5 w-24 h-24 font-black flex justify-center items-center mb-4">N</div>
-                <h1 class="text-5xl font-bold mb-6 leading-tight">Hello, I'm <span class="text-yellow-50">Neil Keena</span>. <br />I'm a full-stack web developer.</h1>
-                
-                <p class="text-3xl mb-6 text-indigo-10">Interested in working together? Let's talk.</p>
-                
-                <p class="mb-6 text-indigo-10 max-w-md">I've had the opportunity to build applications for <span class="text-yellow-50 font-bold">business</span>, <span class="text-yellow-50 font-bold">non-profit</span>, <span class="text-yellow-50 font-bold">government</span>, and <span class="text-yellow-50 font-bold">education</span>; giving me <span class="text-yellow-50 font-bold">10+</span> years of professional experience.</p>
-                
-                {{-- <a href="#" class="rounded inline-block py-4 px-8 text-indigo-10 border-2 border-indigo-10 font-bold uppercase no-underline tracking-wide mr-4 hover:bg-white hover:border-white hover:text-indigo-100">View Sample Work</a> --}}
+<section class="bg-code">
 
-                <a href="https://calendly.com/neilkeena" target="_blank" class="rounded inline-block py-4 px-8 bg-yellow-30 text-yellow-80 font-bold uppercase no-underline tracking-wide border-2 border-yellow-30 hover:bg-yellow-20 hover:border-yellow-20">Schedule a Meeting</a>
+    <div class="text-white bg-gradient-indigo">
+        
+        <div class="container mx-auto py-24 px-5 tracking-wide">
+            
+            <div class="flex items-center">
+                
+                <div class="md:w-2/3 w-full md:text-left text-center flex flex-col md:items-start items-center">
+
+                    <div class="border-4 border-indigo-20 text-indigo-20 rounded-full text-5xl inline-block p-5 w-24 h-24 font-black flex justify-center items-center mb-4">N</div>
+
+                    <h1 class="md:text-5xl text-3xl font-bold mb-6 leading-tight">Hello, I'm <span class="text-yellow-50">Neil Keena</span>. <br />I'm a full-stack web developer.</h1>
+                    
+                    <p class="md:text-3xl text-2xl mb-6 text-indigo-10">Interested in working together? Let's talk.</p>
+                    
+                    <p class="mb-6 text-indigo-10 max-w-md">I've had the opportunity to build applications for <span class="text-yellow-50 font-bold">business</span>, <span class="text-yellow-50 font-bold">non-profit</span>, <span class="text-yellow-50 font-bold">government</span>, and <span class="text-yellow-50 font-bold">education</span>; giving me <span class="text-yellow-50 font-bold">10+</span> years of professional experience.</p>
+                    
+                    {{-- <a href="#" class="rounded inline-block py-4 px-8 text-indigo-10 border-2 border-indigo-10 font-bold uppercase no-underline tracking-wide mr-4 hover:bg-white hover:border-white hover:text-indigo-100">View Sample Work</a> --}}
+
+                    <a href="https://calendly.com/neilkeena" target="_blank" class="rounded inline-block py-4 px-8 bg-yellow-30 text-yellow-80 font-bold uppercase no-underline tracking-wide border-2 border-yellow-30 hover:bg-yellow-20 hover:border-yellow-20">Schedule a Meeting</a>
+
+                </div>
+
             </div>
-        </section>
+
+        </div>
+
     </div>
+
 </section>
-</div>
 
 <section class="py-12 px-5 bg-grey-20">
+    
     <div class="container mx-auto">
         
         <div class="text-center">
+            
             <h2 class="text-4xl font-black mb-4 text-grey-100 text-center">How I can Help</h2>
+            
             <svg width="100" height="5" class="mb-12">
               <rect width="100" height="5" style="fill:hsl(227, 50%, 59%)" />
             </svg>
+
         </div>
         
         <div class="flex flex-wrap -mx-4">
 
-            <div class="w-1/3 px-4 mb-12">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 mb-12 md:text-left text-center">
+
                 <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 100 100" class="heroicon-code heroicon heroicon-lg">
                     <path class="heroicon-code-interface heroicon-component-fill" d="M0 18h100v59.997c0 2.21-1.8 4.003-3.997 4.003H3.997C1.79 82 0 80.205 0 77.997V18z"></path>
                     <path class="heroicon-code-side heroicon-component-fill" d="M1 17h7v64H4.01C2.346 81 1 79.663 1 78V17z"></path>
@@ -46,12 +61,14 @@
                     <path class="heroicon-outline" fill-rule="nonzero" d="M3.997 2h92.006C98.21 2 100 3.783 100 5.995v72.01c0 .328-.04.647-.115.952.076.67.115 1.352.115 2.043 0 9.94-8.06 18-18 18-9.606 0-17.454-7.524-17.973-17H3.997C1.79 82 0 80.217 0 78.005V5.995C0 3.788 1.8 2 3.997 2zM82 63c6.966 0 13.007 3.957 16 9.746V18H9v62h55.027c.52-9.476 8.367-17 17.973-17zm16-51V5.995C98 4.89 97.108 4 96.003 4H3.997C2.9 4 2 4.897 2 5.995V12h16l6-6h18l6 6h50zM2 14v2h96v-2H47.172l-6-6H24.828l-6 6H2zm0 4v60.005C2 79.11 2.892 80 3.997 80H7V18H2zm80 79c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM11 20h4v1h-4v-1zm14 0v1h-8v-1h8zm2 0h6v1h-6v-1zm20 0v1H35v-1h12zm-26 3v1H11v-1h10zm8 0v1h-6v-1h6zm10 0v1h-8v-1h8zm14 1H41v-1h12v1zm2-1h6v1h-6v-1zm-34 4h-8v-1h8v1zm2-1h6v1h-6v-1zm18 0v1H31v-1h10zm2 0h6v1h-6v-1zm16 1h-8v-1h8v1zm-40 2v1h-4v-1h4zm10 1h-8v-1h8v1zm2-1h10v1H31v-1zm24 1H43v-1h12v1zm10-1v1h-8v-1h8zm10 0v1h-8v-1h8zM25 56v1h-8v-1h8zm-4 4h-4v-1h4v1zm10-1v1h-8v-1h8zm12 0v1H33v-1h10zm2 0h10v1H45v-1zm-18-3h10v1H27v-1zm20 0v1h-8v-1h8zm8 0v1h-6v-1h6zm2 0h10v1H57v-1zm18 0v1h-6v-1h6zm2 0h10v1H77v-1zm19 0v1h-7v-1h7zM21 32v1h-6v-1h6zm12 0v1H23v-1h10zm-16 3h7v1h-7v-1zm5 18v1h-7v-1h7zm-7 9h9v1h-9v-1zm5 3v1h-5v-1h5zm-3 3h7v1h-7v-1zm16 0v1h-7v-1h7zm12 0v1H35v-1h10zm8 0v1h-6v-1h6zm-32 3v1h-6v-1h6zm-8 3h6v1h-6v-1zm4 3v1h-6v-1h6zm10 1h-8v-1h8v1zm10-1v1h-8v-1h8zm-9-11h-6v-1h6v1zm2-1h8v1h-8v-1zm0-27v1H19v-1h11zm2 0h8v1h-8v-1zm-7 3v1h-8v-1h8zm-10 3h6v1h-6v-1zm8 6v1h-8v-1h8zm6 0v1h-4v-1h4zm0-6v1h-6v-1h6zm-12 3h10v1H17v-1zm18 0v1h-6v-1h6zm2 0h4v1h-4v-1zm8-15v1H35v-1h10zM6 10c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm7-2c0 1.105-.895 2-2 2s-2-.895-2-2 .895-2 2-2 2 .895 2 2zm3 2c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zM4 20h1v1H4v-1zm1 3v1H4v-1h1zm-1 3h1v1H4v-1zm1 3v1H4v-1h1zm-1 3h1v1H4v-1zm1 3v1H4v-1h1zm-1 3h1v1H4v-1zm1 3v1H4v-1h1zm-1 3h1v1H4v-1zm1 3v1H4v-1h1zm-1 3h1v1H4v-1zm1 3v1H4v-1h1zm-1 3h1v1H4v-1zm1 3v1H4v-1h1zm-1 3h1v1H4v-1zm1 3v1H4v-1h1zm-1 3h1v1H4v-1zm1 3v1H4v-1h1zm-1 3h1v1H4v-1zm1 3v1H4v-1h1zm63 4c0-7.732 6.268-14 14-14v1c-7.18 0-13 5.82-13 13 0 1.652.308 3.232.87 4.686l-.908.425C68.342 84.53 68 82.805 68 81zm8.707-.707L76 81l.707.707 3.586 3.586L81 86l-.707.707-1.586 1.586L78 89l-.707-.707-6.586-6.586L70 81l.707-.707 6.586-6.586L78 73l.707.707 1.586 1.586L81 76l-.707.707-3.586 3.586zM79.587 86l-4.294-4.293-.707-.707.707-.707L79.586 76 78 74.414 71.414 81 78 87.586 79.586 86zm4.12-9.293L83 76l.707-.707 1.586-1.586L86 73l.707.707 6.586 6.586L94 81l-.707.707-6.586 6.586L86 89l-.707-.707-1.586-1.586L83 86l.707-.707 3.586-3.586L88 81l-.707-.707-3.586-3.586zm5 5L84.414 86 86 87.586 92.586 81 86 74.414 84.414 76l4.293 4.293.707.707-.707.707z"></path>
                 </svg>
 
-
                 <h3 class="font-black mb-2 text-2xl text-indigo-80">Code</h3>
+                
                 <p class="text-grey-80">I'm an expert in PHP, JavaScript, HTML, and CSS. My favorite frameworks include <a href="https://laravel.com" target="_blank" class="text-link">Laravel</a>, <a href="https://vuejs.org" target="_blank" class="text-link">Vue.js</a>, and <a href="https://tailwindcss.com" target="_blank" class="text-link">Tailwind CSS</a>.</p>
+
             </div>
 
-            <div class="w-1/3 px-4 mb-12">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 mb-12 md:text-left text-center">
+
                 <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 100 100" class="heroicon-api heroicon heroicons-lg">
                     <polygon class="heroicon-api-block-sides heroicon-component-fill" points="50 0 25 13 25 43.52 1 56 1 87 26 100 50 87.52 74 100 99 87 99 86 99 57 99 56 75 43.52 75 13"></polygon>
                     <polygon class="heroicon-api-block-top-bottom-right heroicon-component-accent heroicon-component-fill" points="74 45.254 94.665 56 74 66.746 53.335 56"></polygon>
@@ -62,10 +79,13 @@
                 </svg>
 
                 <h3 class="font-black mb-2 text-2xl text-indigo-80">APIs</h3>
+
                 <p class="text-grey-80">Whether it's a web backend to a mobile app or connecting with third-party services; I have years of experience building and working with APIs.</p>
+
             </div>
 
-            <div class="w-1/3 px-4 mb-12">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 mb-12 md:text-left text-center">
+
                 <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 100 100" class="heroicon-swatch heroicon heroicons-lg">
                     <path class="heroicon-swatch-background heroicon-component-fill" d="M4 0a4 4 0 0 0-4 4v85a4 4 0 0 0 4 4h3v3a4 4 0 0 0 4 4h85a4 4 0 0 0 4-4V74a4 4 0 0 0-4-4H70.98l21.67-12.51a4 4 0 0 0 1.46-5.46l-11-19.06a4 4 0 0 0-5.46-1.46l-21.67 12.5L68.5 22.36a4 4 0 0 0-1.46-5.46l-19.06-11a4 4 0 0 0-5.46 1.46L30 29.02V4a4 4 0 0 0-4-4H4z"></path>
                     <polygon class="heroicon-swatch-color-1-1 heroicon-component-accent heroicon-component-fill" points="2 19 2 7 28 7 28 19"></polygon>
@@ -88,10 +108,13 @@
                 </svg>
 
                 <h3 class="font-black mb-2 text-2xl text-indigo-80">Design</h3>
+
                 <p class="text-grey-80">Everything from UI design, responsive layouts, UX, color and font selections; designing web applications is what I do best.</p>
+
             </div>
 
-            <div class="w-1/3 px-4 mb-12">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 mb-12 md:text-left text-center">
+
                 <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 100 100" class="heroicon-database heroicon heroicons-lg">
                     <path class="heroicon-database-exterior heroicon-component-fill" d="M10 20v12a11.22 11.22 0 0 0 1.83 6A11.2 11.2 0 0 0 10 44v12c0 2.09.64 4.1 1.83 6A11.2 11.2 0 0 0 10 68v12c0 11.05 17.9 20 40 20s40-8.95 40-20V68c0-2.09-.64-4.1-1.83-6A11.2 11.2 0 0 0 90 56V44c0-2.09-.64-4.1-1.83-6A11.2 11.2 0 0 0 90 32V20C90 8.95 72.1 0 50 0S10 8.95 10 20z"></path>
                     <path class="heroicon-database-interior heroicon-component-accent heroicon-component-fill-" fill-rule="nonzero" d="M16 66.54C23.06 72.22 35.65 76 50 76c14.35 0 26.94-3.78 34-9.46V68c0 6.65-14.96 14-34 14s-34-7.35-34-14v-1.46zm0-24C23.06 48.22 35.65 52 50 52c14.35 0 26.94-3.78 34-9.46V44c0 6.65-14.96 14-34 14s-34-7.35-34-14v-1.46z"></path>
@@ -100,10 +123,13 @@
                 </svg>
 
                 <h3 class="font-black mb-2 text-2xl text-indigo-80">Database</h3>
+
                 <p class="text-grey-80">I work primarily with relational databases in <a href="https://www.mysql.com/" target="_blank" class="text-link">MySQL</a>. I also have experience working with Redis servers, <a href="https://memcached.org/" target="_blank" class="text-link">Memcached</a> and file based caching.</p>
+
             </div>
 
-             <div class="w-1/3 px-4 mb-12">
+             <div class="lg:w-1/3 md:w-1/2 w-full px-4 mb-12 md:text-left text-center">
+
                 <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 100 100" class="heroicon-documentation heroicon heroicons-lg">
                     <polygon class="heroicon-documentation-book-cover heroicon-component-accent heroicon-component-fill" points="7 82 7 32 1 32 1 88 99 88 99 32 93 32 93 82 7 82"></polygon>
                     <polygon class="heroicon-documentation-book-pages heroicon-component-fill" points="38 24 7 24 7 82 93 82 93 24 62 24 62 33 50 39 38 33"></polygon>
@@ -114,10 +140,13 @@
                 </svg>
 
                 <h3 class="font-black mb-2 text-2xl text-indigo-80">Documentation</h3>
+
                 <p class="text-grey-80">Besides writing well documented code, I've also written online documentation for both developers and users - complete with screencasts.</p>
+
             </div>
 
-            <div class="w-1/3 px-4 mb-12">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 mb-12 md:text-left text-center">
+
                 <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 100 100" class="heroicon-server heroicon heroicons-lg">
                     <path class="heroicon-server-housing heroicon-component-fill" d="M14 94v-2h-1.01A3 3 0 0 1 10 89V3a3 3 0 0 1 2.99-3h74.02A3 3 0 0 1 90 3v86a3 3 0 0 1-2.99 3H86v2h4v6H10v-6h4z"></path>
                     <path class="heroicon-server-boxes heroicon-component-accent heroicon-component-fill" d="M15 4h70a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H15a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm0 20h70a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H15a1 1 0 0 1-1-1V25a1 1 0 0 1 1-1zm0 20h70a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H15a1 1 0 0 1-1-1V45a1 1 0 0 1 1-1zm0 20h70a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H15a1 1 0 0 1-1-1V65a1 1 0 0 1 1-1z"></path>
@@ -127,10 +156,13 @@
                 </svg>
 
                 <h3 class="font-black mb-2 text-2xl text-indigo-80">Servers</h3>
+
                 <p class="text-grey-80">I'm proficient with managing hosting servers using Laravel's <a href="https://forge.laravel.com/" target="_blank" class="text-link">Forge</a> and can provide zero-down time deployment with <a href="https://envoyer.io" target="_blank" class="text-link">Envoyer</a>.</p>
+
             </div>
             
-            <div class="w-1/3 px-4 mb-12">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 mb-12 md:text-left text-center">
+
                 <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 100 100" class="heroicon-cloud heroicon heroicons-lg">
                     <path class="heroicon-cloud-background heroicon-component-fill" d="M83 82H22a22 22 0 0 1-3.14-43.78 27.01 27.01 0 0 1 49.99-5.89 15 15 0 0 1 18.08 16.13A17 17 0 0 1 83 82z"></path>
                     <path class="heroicon-shadows" d="M.2 57A22 22 0 0 0 22 82h61a17 17 0 0 0 16.74-20A17 17 0 0 1 83 76H22A22 22 0 0 1 .2 57z"></path>
@@ -138,10 +170,13 @@
                 </svg>
 
                 <h3 class="font-black mb-2 text-2xl text-indigo-80">Cloud</h3>
+
                 <p class="text-grey-80">I've worked with <a href="https://www.digitalocean.com/" target="_blank" class="text-link">Digital Ocean</a>, <a href="https://aws.amazon.com/" target="_blank" class="text-link">AWS</a>, and a number of CDNs. I can monitor servers and track errors using services like <a href="https://www.bugsnag.com/" target="_blank" class="text-link">BugSnag</a>, <a href="https://sentry.io/" target="_blank" class="text-link">Sentry</a>, and <a href="https://blackfire.io/" target="_blank" class="text-link">Blackfire</a>.</p>
+
             </div>
 
-            <div class="w-1/3 px-4 mb-12">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 mb-12 md:text-left text-center">
+
                 <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 100 100" class="heroicon-load-balancer heroicon heroicons-lg">
                     <rect class="heroicon-load-balancer-box-bottom heroicon-component-accent heroicon-component-fill" width="28" height="28" x="36" y="72"></rect>
                     <path class="heroicon-load-balancer-boxes-top heroicon-component-accent heroicon-component-fill" fill-rule="nonzero" d="M0 0h28v28H0V0zm36 0h28v28H36V0zm64 0H72v28h28V0z"></path>
@@ -151,10 +186,13 @@
                 </svg>
 
                 <h3 class="font-black mb-2 text-2xl text-indigo-80">Networks</h3>
+
                 <p class="text-grey-80">I can configure load balancers, DNS, MX records, and <a href="https://letsencrypt.org/" target="_blank" class="text-link">SSL certificates</a>. I've implemented both vertical and horizonal scaling solutions to increase performance.</p>
+
             </div>
             
-            <div class="w-1/3 px-4 mb-12">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 mb-12 md:text-left text-center">
+
                 <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 100 100" class="heroicon-cog heroicon heroicons-lg">
                     <path class="heroicon-cog-front-outer heroicon-component-fill" d="M39.17 26.08l.13-1.6.54-6.48h4.32l.54 6.49.13 1.6 1.59.21a31 31 0 0 1 3.61.72l1.53.4.74-1.4 3.05-5.8 3.98 1.68-2.03 6.14-.5 1.53 1.4.82c1.08.64 2.08 1.31 3.09 2.07l1.27.97 1.23-1.03 4.97-4.21 3.05 3.05-4.2 4.97-1.04 1.23.97 1.27c.75 1 1.41 1.98 2.04 3.06l.8 1.36 1.52-.47 6.26-1.94 1.62 4L74 47.65l-1.44.72.4 1.57c.32 1.2.55 2.39.73 3.65l.22 1.59 1.6.13 6.48.54v4.32l-6.49.54-1.6.13-.21 1.59a31 31 0 0 1-.72 3.61l-.4 1.53 1.4.74 5.8 3.05-1.68 3.98-6.14-2.03-1.53-.5-.82 1.4a31.2 31.2 0 0 1-2.07 3.09l-.97 1.27 1.03 1.23 4.21 4.97-3.05 3.05-4.97-4.2-1.23-1.04-1.27.97a31.2 31.2 0 0 1-3.06 2.04l-1.36.8.47 1.52 1.94 6.26-4 1.62L52.35 90l-.72-1.44-1.57.4c-1.2.32-2.39.55-3.65.73l-1.59.22-.13 1.6-.54 6.48h-4.32l-.54-6.49-.13-1.6-1.59-.21a31 31 0 0 1-3.61-.72l-1.53-.4-.74 1.4-3.05 5.8-3.98-1.68 2.03-6.14.5-1.53-1.4-.82a31.2 31.2 0 0 1-3.09-2.07l-1.27-.97-1.23 1.03-4.97 4.21-3.05-3.05 4.2-4.97 1.04-1.23-.97-1.27c-.76-1-1.43-2-2.07-3.1l-.82-1.39-1.53.5-6.14 2.03-1.69-3.98 5.8-3.05 1.4-.74-.4-1.53a31 31 0 0 1-.7-3.61l-.23-1.59-1.6-.13L2 60.16v-4.32l6.49-.54 1.6-.13.21-1.59a31 31 0 0 1 .72-3.61l.4-1.53-1.4-.74-5.8-3.05 1.68-3.98 6.14 2.03 1.53.5.82-1.4a31.2 31.2 0 0 1 2.07-3.09l.97-1.27-1.03-1.23-4.21-4.97 3.05-3.05 4.97 4.2 1.23 1.04 1.27-.97c1-.75 1.98-1.41 3.06-2.05l1.36-.8-.47-1.51-1.94-6.26 4-1.62L31.65 26l.72 1.44 1.57-.4c1.2-.32 2.39-.55 3.65-.73l1.59-.22zM42 72a14 14 0 1 0 0-28 14 14 0 0 0 0 28z"></path>
                     <path class="heroicon-cog-front-inner heroicon-component-fill" d="M42 72a14 14 0 1 1 0-28 14 14 0 0 1 0 28zm0-5a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"></path>
@@ -163,10 +201,12 @@
                     <path class="heroicon-shadows" d="M55.86 56a16 16 0 0 0-27.72 0 14 14 0 0 1 27.72 0zm4.16-29.82l1.19-3.6a11.5 11.5 0 0 1 20.06 5.1 13.98 13.98 0 0 0-21.25-1.5z"></path>
                     <path class="heroicon-outline" fill-rule="nonzero" d="M49.4 17.66c.41-.67.85-1.33 1.32-1.96l-4.05-4.8 4.24-4.23 4.8 4.05c.62-.47 1.28-.9 1.95-1.31l-1.95-5.93 5.52-2.35 2.94 5.58c.76-.19 1.53-.34 2.3-.45L67 0h6l.52 6.26c.78.11 1.55.26 2.3.45l2.95-5.58 5.52 2.35-1.95 5.93c.67.4 1.33.84 1.96 1.31l4.8-4.05 4.23 4.24-4.05 4.8c.46.62.9 1.27 1.3 1.95l6.03-1.87 2.25 5.56-5.58 2.81c.2.76.35 1.53.46 2.32L100 27v6l-6.26.52c-.11.78-.26 1.55-.45 2.3l5.58 2.95-2.35 5.52-5.93-1.95c-.4.67-.84 1.33-1.31 1.96l4.05 4.8-4.24 4.23-4.8-4.05c-.62.46-1.27.9-1.95 1.3l1.05 3.37.61.05v1.92l.21.7-.21.08V62l-8.32.7c-.18 1.3-.44 2.58-.76 3.83l7.43 3.9-3.13 7.37-7.89-2.6a34.05 34.05 0 0 1-2.2 3.3l5.4 6.37-5.66 5.66-6.38-5.4a34.03 34.03 0 0 1-3.24 2.18l2.48 8.01-7.41 3-3.74-7.41c-1.27.33-2.57.59-3.89.77L46 100h-8l-.7-8.32c-1.3-.18-2.58-.44-3.83-.76l-3.9 7.43-7.37-3.13 2.6-7.89a34.05 34.05 0 0 1-3.3-2.2l-6.37 5.4-5.66-5.66 5.4-6.38a34.05 34.05 0 0 1-2.2-3.29l-7.89 2.6-3.13-7.36 7.43-3.91a33.83 33.83 0 0 1-.76-3.84L0 62v-8l8.32-.7c.18-1.3.44-2.58.76-3.83l-7.43-3.9 3.13-7.37 7.89 2.6c.67-1.14 1.4-2.24 2.2-3.3l-5.4-6.37 5.66-5.66 6.38 5.4a34.03 34.03 0 0 1 3.24-2.18l-2.48-8.01 7.41-3 3.74 7.41c1.27-.33 2.57-.59 3.89-.77L38 16h5.35l.13-.29.88.29H46l.05.56 3.36 1.1zm-10.23 8.42l-1.59.22c-1.26.18-2.44.41-3.65.73l-1.57.4-.72-1.44-2.91-5.77-4 1.62 1.93 6.26.47 1.51-1.36.8a31.2 31.2 0 0 0-3.06 2.05l-1.27.97-1.23-1.03-4.97-4.21-3.05 3.05 4.2 4.97 1.04 1.23-.97 1.27c-.76 1-1.43 2-2.07 3.1l-.82 1.39-1.53-.5-6.14-2.03-1.69 3.98 5.8 3.05 1.4.74-.4 1.53a31 31 0 0 0-.7 3.61l-.23 1.59-1.6.13-6.48.54v4.32l6.49.54 1.6.13.21 1.59a31 31 0 0 0 .72 3.61l.4 1.53-1.4.74-5.8 3.05 1.68 3.98 6.14-2.03 1.53-.5.82 1.4a31.2 31.2 0 0 0 2.07 3.09l.97 1.27-1.03 1.23-4.21 4.97 3.05 3.05 4.97-4.2 1.23-1.04 1.27.97c1 .76 2 1.43 3.1 2.07l1.39.82-.5 1.53-2.03 6.14 3.98 1.69 3.05-5.8.74-1.4 1.53.4a31 31 0 0 0 3.61.7l1.59.23.13 1.6.54 6.48h4.32l.54-6.49.13-1.6 1.59-.21c1.26-.18 2.44-.41 3.65-.73l1.57-.4.72 1.44 2.91 5.77 4-1.62-1.93-6.26-.47-1.51 1.36-.8a31.2 31.2 0 0 0 3.06-2.05l1.27-.97 1.23 1.03 4.97 4.21 3.05-3.05-4.2-4.97-1.04-1.23.97-1.27c.76-1 1.43-2 2.07-3.1l.82-1.39 1.53.5 6.14 2.03 1.69-3.98-5.8-3.05-1.4-.74.4-1.53a31 31 0 0 0 .7-3.61l.23-1.59 1.6-.13 6.48-.54v-4.32l-6.49-.54-1.6-.13-.21-1.59c-.18-1.26-.41-2.44-.73-3.65l-.4-1.57 1.44-.72 5.77-2.91-1.62-4-6.26 1.93-1.51.47-.8-1.36a31.2 31.2 0 0 0-2.05-3.06l-.97-1.27 1.03-1.23 4.21-4.97-3.05-3.05-4.97 4.2-1.23 1.04-1.27-.97c-1-.76-2-1.43-3.1-2.07l-1.39-.82.5-1.53 2.03-6.14-3.98-1.69-3.05 5.8-.74 1.4-1.53-.4a31 31 0 0 0-3.61-.7l-1.59-.23-.13-1.6-.54-6.48h-4.32l-.54 6.49-.13 1.6zM42 43.5a14.5 14.5 0 1 1 0 29 14.5 14.5 0 0 1 0-29zM28.5 58a13.5 13.5 0 1 0 27 0 13.5 13.5 0 0 0-27 0zM52 58a10 10 0 1 1-20 0 10 10 0 0 1 20 0zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0zM76.87 9.03l-1.53-.38c-.7-.17-1.38-.3-2.11-.41L71.66 8l-.13-1.58L71.16 2h-2.32l-.37 4.42L68.34 8l-1.57.24c-.73.1-1.4.24-2.11.41l-1.53.38-.73-1.39-2.08-3.95-2.13.9 1.37 4.2.5 1.51-1.37.82c-.63.38-1.2.77-1.8 1.2l-1.27.95-1.21-1.02-3.39-2.87-1.64 1.64 2.87 3.39 1.02 1.21-.94 1.27c-.44.6-.83 1.17-1.2 1.8l-.83 1.37-1.52-.5-2.55-.84.25 3.07 1.16.61 1.4.73-.39 1.52c.64.13 1.26.27 1.88.43l3.9-7.43 7.2 3.06a12.5 12.5 0 0 1 17.7 17.6l3 7.37-7.42 3.74c.16.64.31 1.28.44 1.93l1.55-.4.72 1.43.58 1.14 3.04.25-.8-2.6-.47-1.49 1.34-.8c.64-.39 1.2-.77 1.8-1.2l1.27-.95 1.21 1.02 3.39 2.87 1.64-1.64-2.87-3.39-1.02-1.21.94-1.27c.44-.6.83-1.17 1.2-1.8l.83-1.37 1.52.5 4.18 1.37.9-2.13-3.94-2.08-1.4-.73.39-1.52c.17-.71.3-1.39.41-2.12l.24-1.57 1.58-.13 4.42-.37v-2.32l-4.42-.37-1.58-.13-.24-1.57c-.1-.74-.24-1.41-.42-2.12l-.38-1.55 1.42-.72 3.94-1.99-.87-2.15-4.27 1.33-1.5.46-.8-1.34a21.2 21.2 0 0 0-1.2-1.8l-.95-1.27 1.02-1.21 2.87-3.39-1.64-1.64-3.39 2.87-1.21 1.02-1.27-.94c-.6-.44-1.17-.83-1.8-1.2l-1.37-.83.5-1.52L81.8 4.6l-2.13-.9-2.08 3.94-.73 1.4zM46.69 24.27l.02-.1-.03-.02v.12zm12.51 4.4c1.02.6 2 1.24 2.95 1.94l-.13-.1a8 8 0 1 1 7.47 7.47l-.02-.01c.66.9 1.27 1.82 1.84 2.78l5.97-1.85A11.5 11.5 0 1 0 61.2 22.59l-2 6.08zM76 30a6 6 0 0 0-11.99-.42l4.86-4.1 5.66 5.65-4.11 4.86A6 6 0 0 0 76 30zm-.14 23.32l-.02-.04-.1.03.12.01z"></path>
                 </svg>
-                <h3 class="font-black mb-2 text-2xl text-indigo-80">Automation</h3>
-                <p class="text-grey-80">Utilizing queued jobs with <a href="https://redis.io/" target="_blank" class="text-link">Redis</a>, Beanstalkd, or Amazon's <a href="https://aws.amazon.com/sqs/" target="_blank" class="text-link">SQS</a>, I can automate and schedule background tasks or send transactional emails.</p>
-            </div>
 
+                <h3 class="font-black mb-2 text-2xl text-indigo-80">Automation</h3>
+
+                <p class="text-grey-80">Utilizing queued jobs with <a href="https://redis.io/" target="_blank" class="text-link">Redis</a>, Beanstalkd, or Amazon's <a href="https://aws.amazon.com/sqs/" target="_blank" class="text-link">SQS</a>, I can automate and schedule background tasks or send transactional emails.</p>
+
+            </div>
 
         </div>
 
@@ -174,10 +214,13 @@
 </section>
 
 <section class="bg-white bg-pie-factory py-12 px-5">
-    <div class="container mx-auto flex">
-        <div class="w-1/2">
+    <div class="container mx-auto flex flex-wrap">
+        <div class="md:w-1/2 w-full text-center">
+            <img src="/assets/images/neil-keena.jpg" 
+                 class="rounded-full border-4 border-indigo-80 p-1 mb-4 max-w-xs"
+            >
         </div>
-        <div class="w-1/2 text-grey-50">
+        <div class="md:w-1/2 w-full text-grey-50">
             <h3 class="text-indigo-80 mb-4 text-3xl font-black">About Me</h3>
             <p class="mb-4">I built my first website at 16 years old using nothing more than a simple text editor. Since then, I've been building web applications of all shapes and sizes. I built and currently manage applications for two non-profit charities <a href="https://missions.me" target="_blank" class="text-link">missions.me</a> and <a href="https://angelhouse.me" target="_blank" class="text-link">angelhouse.me</a>. I've been the Senior Web Developer on staff at Missions.Me since 2014. I reside with my wife, Cathleen, in Orange County, California.</p>
 
@@ -193,7 +236,7 @@
 </section>
 
 <footer class="bg-grey-100 p-5 text-white text-center text-xs">
-    &copy; {{ date('Y') }} Neil Keena. All Rights Reserved. Built with <a href="https://jigsaw.tighten.co/" target="_blank" class="text-white">Jigsaw</a> and proudly hosted with <a href="https://www.netlify.com/" target="_blank" class="text-white">Netlify</a>.
+    &copy; {{ date('Y') }} Neil Keena. All Rights Reserved. Built with &hearts; by Neil using <a href="https://jigsaw.tighten.co/" target="_blank" class="text-white">Jigsaw</a> and proudly hosted on <a href="https://www.netlify.com/" target="_blank" class="text-white">Netlify</a>.
 </footer>
 
 @endsection
