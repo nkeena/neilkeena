@@ -308,8 +308,8 @@
                     </h2>
                     <p class="mt-4 text-lg leading-6 text-teal-200">Angel House is a donor management and crowdfunding
                         platform for building orphanages in India.</p>
-                    <h4 class="mt-4 text-sm font-bold leading-3 text-blue-200">Tech Stack</h4>
-                    <p class="mt-2 text-sm leading-3 text-blue-200">
+                    <h4 class="mt-4 text-sm font-bold leading-3 text-teal-200">Tech Stack</h4>
+                    <p class="mt-2 text-sm leading-3 text-teal-200">
                         Laravel, Vue.js, TailwindCSS, MySQL, Redis
                     </p>
                 </div>
@@ -332,8 +332,8 @@
                         ILA staff, teachers, and parents. It has a shopping cart like registration system to accept
                         payment for class fees. It also integrates with a third-party learning management system (LMS).
                     </p>
-                    <h4 class="mt-4 text-sm font-bold leading-3 text-blue-200">Tech Stack</h4>
-                    <p class="mt-2 text-sm leading-3 text-blue-200">
+                    <h4 class="mt-4 text-sm font-bold leading-3 text-gray-200">Tech Stack</h4>
+                    <p class="mt-2 text-sm leading-3 text-gray-200">
                         Laravel, Livewire, TailwindCSS, MySQL, Redis
                     </p>
                 </div>
